@@ -1,0 +1,12 @@
+# Miscellaneous
+!**/.*
+.all-contributorsrc
+
+# Dependencies
+node_modules
+
+# Version Control
+.git
+
+# Workspaces
+packages

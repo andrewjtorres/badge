@@ -1,0 +1,11 @@
+# Miscellaneous
+!**/.*
+
+# Dependencies
+node_modules
+
+# Version Control
+.git
+
+# Workspaces
+packages
