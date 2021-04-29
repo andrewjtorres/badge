@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "build",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "rootDir": "src",
+    "types": []
+  },
+  "exclude": ["build", "node_modules"],
+  "include": ["src/**/*"]
+}
