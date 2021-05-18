@@ -43,7 +43,7 @@
     "@types/aws-lambda": "^8.10.76",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
-    "@typescript-eslint/parser": "^4.23.0",
+    "@typescript-eslint/parser": "^4.24.0",
     "@typescript-eslint/typescript-estree": "^4.22.1",
     "cz-conventional-changelog": "^3.3.0",
     "del-cli": "^3.0.1",
