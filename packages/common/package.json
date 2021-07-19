@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.4",
     "@typescript-eslint/typescript-estree": "^4.28.4",
     "del-cli": "^4.0.1",
     "eslint": "^7.30.0",
