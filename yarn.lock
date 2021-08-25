@@ -6246,9 +6246,9 @@ osenv@^0.1.4:
     os-tmpdir "^1.0.0"
 
 outvariant@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/outvariant/-/outvariant-1.2.0.tgz#c904d30dc36d70d93902b13641aa1fda69ae8c0c"
-  integrity sha512-OKEOPXtvIeSohFl9avZwm1BL/awT49PV/HQHyc0RHcdICkvj5XP+j+IHhsSoV7nT5gDtMJTlWXqVpA/F8yoi2A==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/outvariant/-/outvariant-1.2.1.tgz#e630f6cdc1dbf398ed857e36f219de4a005ccd35"
+  integrity sha512-bcILvFkvpMXh66+Ubax/inxbKRyWTUiiFIW2DWkiS79wakrLGn3Ydy+GvukadiyfZjaL6C7YhIem4EZSM282wA==
 
 p-cancelable@^2.0.0:
   version "2.1.1"
