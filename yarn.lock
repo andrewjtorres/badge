@@ -579,17 +579,7 @@
     slash "^3.0.0"
     strip-ansi "^6.0.0"
 
-"@jest/environment@^27.0.6":
-  version "27.0.6"
-  resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-27.0.6.tgz#ee293fe996db01d7d663b8108fa0e1ff436219d2"
-  integrity sha512-4XywtdhwZwCpPJ/qfAkqExRsERW+UaoSRStSHCCiQTUpoYdLukj+YJbQSFrZjhlUDRZeNiU9SFH0u7iNimdiIg==
-  dependencies:
-    "@jest/fake-timers" "^27.0.6"
-    "@jest/types" "^27.0.6"
-    "@types/node" "*"
-    jest-mock "^27.0.6"
-
-"@jest/environment@^27.1.0":
+"@jest/environment@^27.0.6", "@jest/environment@^27.1.0":
   version "27.1.0"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-27.1.0.tgz#c7224a67004759ec203d8fa44e8bc0db93f66c44"
   integrity sha512-wRp50aAMY2w1U2jP1G32d6FUVBNYqmk8WaGkiIEisU48qyDV0WPtw3IBLnl7orBeggveommAkuijY+RzVnNDOQ==
@@ -623,16 +613,7 @@
     jest-mock "^27.1.0"
     jest-util "^27.1.0"
 
-"@jest/globals@^27.0.6":
-  version "27.0.6"
-  resolved "https://registry.yarnpkg.com/@jest/globals/-/globals-27.0.6.tgz#48e3903f99a4650673d8657334d13c9caf0e8f82"
-  integrity sha512-DdTGCP606rh9bjkdQ7VvChV18iS7q0IMJVP1piwTWyWskol4iqcVwthZmoJEf7obE1nc34OpIyoVGPeqLC+ryw==
-  dependencies:
-    "@jest/environment" "^27.0.6"
-    "@jest/types" "^27.0.6"
-    expect "^27.0.6"
-
-"@jest/globals@^27.1.0":
+"@jest/globals@^27.0.6", "@jest/globals@^27.1.0":
   version "27.1.0"
   resolved "https://registry.yarnpkg.com/@jest/globals/-/globals-27.1.0.tgz#e093a49c718dd678a782c197757775534c88d3f2"
   integrity sha512-73vLV4aNHAlAgjk0/QcSIzzCZSqVIPbmFROJJv9D3QUR7BI4f517gVdJpSrCHxuRH3VZFhe0yGG/tmttlMll9g==
@@ -3668,19 +3649,7 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-expect@^27.0.6:
-  version "27.0.6"
-  resolved "https://registry.yarnpkg.com/expect/-/expect-27.0.6.tgz#a4d74fbe27222c718fff68ef49d78e26a8fd4c05"
-  integrity sha512-psNLt8j2kwg42jGBDSfAlU49CEZxejN1f1PlANWDZqIhBOVU/c2Pm888FcjWJzFewhIsNWfZJeLjUjtKGiPuSw==
-  dependencies:
-    "@jest/types" "^27.0.6"
-    ansi-styles "^5.0.0"
-    jest-get-type "^27.0.6"
-    jest-matcher-utils "^27.0.6"
-    jest-message-util "^27.0.6"
-    jest-regex-util "^27.0.6"
-
-expect@^27.1.0:
+expect@^27.0.6, expect@^27.1.0:
   version "27.1.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-27.1.0.tgz#380de0abb3a8f2299c4c6c66bbe930483b5dba9b"
   integrity sha512-9kJngV5hOJgkFil4F/uXm3hVBubUK2nERVfvqNNwxxuW8ZOUwSTTSysgfzckYtv/LBzj/LJXbiAF7okHCXgdug==
