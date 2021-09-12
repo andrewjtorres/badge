@@ -39,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "@jest/globals": "^27.1.0",
+    "@jest/globals": "^27.1.1",
     "@types/aws-lambda": "^8.10.83",
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
@@ -56,7 +56,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^35.0.0",
     "husky": "^7.0.2",
-    "jest": "^27.1.0",
+    "jest": "^27.1.1",
     "jest-circus": "^27.1.0",
     "jest-config": "^27.1.1",
     "lerna": "^4.0.0",
