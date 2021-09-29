@@ -729,10 +729,10 @@
     source-map "^0.6.1"
     write-file-atomic "^3.0.0"
 
-"@jest/types@^27.1.1", "@jest/types@^27.2.3":
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.2.3.tgz#e0242545f442242c2538656d947a147443eee8f2"
-  integrity sha512-UJMDg90+W2i/QsS1NIN6Go8O/rSHLFWUkofGqKsUQs54mhmCVyLTiDy1cwKhoNO5fpmr9fctm9L/bRp/YzA1uQ==
+"@jest/types@^27.1.1", "@jest/types@^27.2.3", "@jest/types@^27.2.4":
+  version "27.2.4"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.2.4.tgz#2430042a66e00dc5b140c3636f4474d464c21ee8"
+  integrity sha512-IDO2ezTxeMvQAHxzG/ZvEyA47q0aVfzT95rGFl7bZs/Go0aIucvfDbS2rmnoEdXxlLQhcolmoG/wvL/uKx4tKA==
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
@@ -1800,9 +1800,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*":
-  version "16.10.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.1.tgz#f3647623199ca920960006b3dccf633ea905f243"
-  integrity sha512-4/Z9DMPKFexZj/Gn3LylFgamNKHm4K3QDi0gz9B26Uk0c8izYf97B5fxfpspMNkWlFupblKM/nV8+NA9Ffvr+w==
+  version "16.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.2.tgz#5764ca9aa94470adb4e1185fe2e9f19458992b2e"
+  integrity sha512-zCclL4/rx+W5SQTzFs9wyvvyCwoK9QtBpratqz2IYJ3O8Umrn0m3nsTv0wQBk9sRGpvUe9CwPDrQFB10f1FIjQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -4856,11 +4856,11 @@ istanbul-reports@^3.0.2:
     istanbul-lib-report "^3.0.0"
 
 jest-changed-files@^27.1.1:
-  version "27.1.1"
-  resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-27.1.1.tgz#9b3f67a34cc58e3e811e2e1e21529837653e4200"
-  integrity sha512-5TV9+fYlC2A6hu3qtoyGHprBwCAn0AuGA77bZdUgYvVlRMjHXo063VcWTEAyx6XAZ85DYHqp0+aHKbPlfRDRvA==
+  version "27.2.4"
+  resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-27.2.4.tgz#d7de46e90e5a599c47e260760f5ab53516e835e6"
+  integrity sha512-eeO1C1u4ex7pdTroYXezr+rbr957myyVoKGjcY4R1TJi3A+9v+4fu1Iv9J4eLq1bgFyT3O3iRWU9lZsEE7J72Q==
   dependencies:
-    "@jest/types" "^27.1.1"
+    "@jest/types" "^27.2.4"
     execa "^5.0.0"
     throat "^6.0.1"
 
