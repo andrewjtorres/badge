@@ -5010,18 +5010,7 @@ jest-docblock@^27.0.6:
   dependencies:
     detect-newline "^3.0.0"
 
-jest-each@^27.2.2, jest-each@^27.2.3:
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/jest-each/-/jest-each-27.2.3.tgz#7eaf7c7b362019f23c5a7998b57d82e78e6f6672"
-  integrity sha512-Aza5Lr+tml8x+rBGsi3A8VLqhYN1UBa2M7FLtgkUvVFQBORlV9irLl/ZE0tvk4hRqp4jW7nbGDrRo2Ey8Wl9rg==
-  dependencies:
-    "@jest/types" "^27.2.3"
-    chalk "^4.0.0"
-    jest-get-type "^27.0.6"
-    jest-util "^27.2.3"
-    pretty-format "^27.2.3"
-
-jest-each@^27.2.4:
+jest-each@^27.2.2, jest-each@^27.2.3, jest-each@^27.2.4:
   version "27.2.4"
   resolved "https://registry.yarnpkg.com/jest-each/-/jest-each-27.2.4.tgz#b4f280aafd63129ba82e345f0e74c5a10200aeef"
   integrity sha512-w9XVc+0EDBUTJS4xBNJ7N2JCcWItFd006lFjz77OarAQcQ10eFDBMrfDv2GBJMKlXe9aq0HrIIF51AXcZrRJyg==
@@ -7158,17 +7147,7 @@ prettier@^2.4.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
-pretty-format@^27.0.0, pretty-format@^27.2.2, pretty-format@^27.2.3:
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.2.3.tgz#c76710de6ebd8b1b412a5668bacf4a6c2f21a029"
-  integrity sha512-wvg2HzuGKKEE/nKY4VdQ/LM8w8pRZvp0XpqhwgaZBbjTwd5UdF2I4wvwZjyUwu8G+HI6g4t6u9b2FZlKhlzxcQ==
-  dependencies:
-    "@jest/types" "^27.2.3"
-    ansi-regex "^5.0.1"
-    ansi-styles "^5.0.0"
-    react-is "^17.0.1"
-
-pretty-format@^27.2.4:
+pretty-format@^27.0.0, pretty-format@^27.2.2, pretty-format@^27.2.3, pretty-format@^27.2.4:
   version "27.2.4"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.2.4.tgz#08ea39c5eab41b082852d7093059a091f6ddc748"
   integrity sha512-NUjw22WJHldzxyps2YjLZkUj6q1HvjqFezkB9Y2cklN8NtVZN/kZEXGZdFw4uny3oENzV5EEMESrkI0YDUH8vg==
