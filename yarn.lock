@@ -564,15 +564,6 @@
     jest-mock "^27.2.4"
     jest-util "^27.2.4"
 
-"@jest/globals@^27.2.2":
-  version "27.2.2"
-  resolved "https://registry.yarnpkg.com/@jest/globals/-/globals-27.2.2.tgz#df66aaafda5c69b2bb0dae548e3cfb345f549c31"
-  integrity sha512-fWa/Luwod1hyehnuep+zCnOTqTVvyc4HLUU/1VpFNOEu0tCWNSODyvKSSOjtb1bGOpCNjgaDcyjzo5f7rl6a7g==
-  dependencies:
-    "@jest/environment" "^27.2.2"
-    "@jest/types" "^27.1.1"
-    expect "^27.2.2"
-
 "@jest/globals@^27.2.4":
   version "27.2.4"
   resolved "https://registry.yarnpkg.com/@jest/globals/-/globals-27.2.4.tgz#0aeb22b011f8c8c4b8ff3b4dbd1ee0392fe0dd8a"
