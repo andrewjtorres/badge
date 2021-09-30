@@ -5044,15 +5044,7 @@ jest-jasmine2@^27.2.4:
     pretty-format "^27.2.4"
     throat "^6.0.1"
 
-jest-leak-detector@^27.2.2:
-  version "27.2.2"
-  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-27.2.2.tgz#5af54273efcf5114ad406f4448860c2396319e12"
-  integrity sha512-fQIYKkhXUs/4EpE4wO1AVsv7aNH3o0km1BGq3vxvSfYdwG9GLMf+b0z/ghLmBYNxb+tVpm/zv2caoKm3GfTazg==
-  dependencies:
-    jest-get-type "^27.0.6"
-    pretty-format "^27.2.2"
-
-jest-leak-detector@^27.2.4:
+jest-leak-detector@^27.2.2, jest-leak-detector@^27.2.4:
   version "27.2.4"
   resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-27.2.4.tgz#9bb7eab26a73bb280e9298be8d80f389288ec8f1"
   integrity sha512-SrcHWbe0EHg/bw2uBjVoHacTo5xosl068x2Q0aWsjr2yYuW2XwqrSkZV4lurUop0jhv1709ymG4or+8E4sH27Q==
