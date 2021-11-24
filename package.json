@@ -70,7 +70,7 @@
     "typescript-eslint-language-service": "^5.0.0"
   },
   "engines": {
-    "node": ">=14.16",
+    "node": ">=16.13",
     "yarn": ">=1.22"
   },
   "private": true,
