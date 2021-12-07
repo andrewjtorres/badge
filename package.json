@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@jest/globals": "^27.2.5",
-    "@types/aws-lambda": "^8.10.85",
+    "@types/aws-lambda": "^8.10.86",
     "@types/jest": "^27.0.3",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.5.0",
