@@ -631,7 +631,7 @@
     jest-haste-map "^27.4.4"
     jest-runtime "^27.4.4"
 
-"@jest/transform@^27.4.2", "@jest/transform@^27.4.4", "@jest/transform@^27.4.5":
+"@jest/transform@^27.4.2", "@jest/transform@^27.4.5":
   version "27.4.5"
   resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-27.4.5.tgz#3dfe2e3680cd4aa27356172bf25617ab5b94f195"
   integrity sha512-PuMet2UlZtlGzwc6L+aZmR3I7CEBpqadO03pU40l2RNY2fFJ191b9/ITB44LNOhVtsyykx0OZvj0PCyuLm7Eew==
@@ -4830,10 +4830,10 @@ jest-changed-files@^27.4.2:
     execa "^5.0.0"
     throat "^6.0.1"
 
-jest-circus@^27.4.2, jest-circus@^27.4.4:
-  version "27.4.4"
-  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-27.4.4.tgz#8bf89aa604b914ecc10e3d895aae283b529f965d"
-  integrity sha512-4DWhvQerDq5X4GaqhEUoZiBhuNdKDGr0geW0iJwarbDljAmGaGOErKQG+z2PBr0vgN05z7tsGSY51mdWr8E4xg==
+jest-circus@^27.4.4, jest-circus@^27.4.5:
+  version "27.4.5"
+  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-27.4.5.tgz#70bfb78e0200cab9b84747bf274debacaa538467"
+  integrity sha512-eTNWa9wsvBwPykhMMShheafbwyakcdHZaEYh5iRrQ0PFJxkDP/e3U/FvzGuKWu2WpwUA3C3hPlfpuzvOdTVqnw==
   dependencies:
     "@jest/environment" "^27.4.4"
     "@jest/test-result" "^27.4.2"
@@ -4847,8 +4847,8 @@ jest-circus@^27.4.2, jest-circus@^27.4.4:
     jest-each "^27.4.2"
     jest-matcher-utils "^27.4.2"
     jest-message-util "^27.4.2"
-    jest-runtime "^27.4.4"
-    jest-snapshot "^27.4.4"
+    jest-runtime "^27.4.5"
+    jest-snapshot "^27.4.5"
     jest-util "^27.4.2"
     pretty-format "^27.4.2"
     slash "^3.0.0"
@@ -5152,37 +5152,7 @@ jest-serializer@^27.4.0:
     "@types/node" "*"
     graceful-fs "^4.2.4"
 
-jest-snapshot@^27.4.2, jest-snapshot@^27.4.4:
-  version "27.4.4"
-  resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-27.4.4.tgz#fc0a2cd22f742fe66621c5359c9cd64f88260c6b"
-  integrity sha512-yy+rpCvYMOjTl7IMuaMI9OP9WT229zi8BhdNHm6e6mttAOIzvIiCxFoZ6yRxaV3HDPPgMryi+ReX2b8+IQJdPA==
-  dependencies:
-    "@babel/core" "^7.7.2"
-    "@babel/generator" "^7.7.2"
-    "@babel/parser" "^7.7.2"
-    "@babel/plugin-syntax-typescript" "^7.7.2"
-    "@babel/traverse" "^7.7.2"
-    "@babel/types" "^7.0.0"
-    "@jest/transform" "^27.4.4"
-    "@jest/types" "^27.4.2"
-    "@types/babel__traverse" "^7.0.4"
-    "@types/prettier" "^2.1.5"
-    babel-preset-current-node-syntax "^1.0.0"
-    chalk "^4.0.0"
-    expect "^27.4.2"
-    graceful-fs "^4.2.4"
-    jest-diff "^27.4.2"
-    jest-get-type "^27.4.0"
-    jest-haste-map "^27.4.4"
-    jest-matcher-utils "^27.4.2"
-    jest-message-util "^27.4.2"
-    jest-resolve "^27.4.4"
-    jest-util "^27.4.2"
-    natural-compare "^1.4.0"
-    pretty-format "^27.4.2"
-    semver "^7.3.2"
-
-jest-snapshot@^27.4.5:
+jest-snapshot@^27.4.2, jest-snapshot@^27.4.4, jest-snapshot@^27.4.5:
   version "27.4.5"
   resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-27.4.5.tgz#2ea909b20aac0fe62504bc161331f730b8a7ecc7"
   integrity sha512-eCi/iM1YJFrJWiT9de4+RpWWWBqsHiYxFG9V9o/n0WXs6GpW4lUt4FAHAgFPTLPqCUVzrMQmSmTZSgQzwqR7IQ==
