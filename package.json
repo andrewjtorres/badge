@@ -57,7 +57,7 @@
     "eslint-plugin-unicorn": "^40.0.0",
     "husky": "^7.0.4",
     "jest": "^27.4.7",
-    "jest-circus": "^27.4.5",
+    "jest-circus": "^27.4.6",
     "jest-config": "^27.4.5",
     "lerna": "^4.0.0",
     "lint-staged": "^12.1.5",
