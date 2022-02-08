@@ -3623,17 +3623,7 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-expect@^27.4.6:
-  version "27.4.6"
-  resolved "https://registry.yarnpkg.com/expect/-/expect-27.4.6.tgz#f335e128b0335b6ceb4fcab67ece7cbd14c942e6"
-  integrity sha512-1M/0kAALIaj5LaG66sFJTbRsWTADnylly82cu4bspI0nl+pgP4E6Bh/aqdHlTUjul06K7xQnnrAoqfxVU0+/ag==
-  dependencies:
-    "@jest/types" "^27.4.2"
-    jest-get-type "^27.4.0"
-    jest-matcher-utils "^27.4.6"
-    jest-message-util "^27.4.6"
-
-expect@^27.5.0:
+expect@^27.4.6, expect@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-27.5.0.tgz#ea2fbebb483c274043098c34a53923a0aee493f0"
   integrity sha512-z73GZ132cBqrapO0X6BeRjyBXqOt9YeRtnDteHJIQqp5s2pZ41Hz23VUbsVFMfkrsFLU9GwoIRS0ZzLuFK8M5w==
@@ -5039,22 +5029,7 @@ jest-matcher-utils@^27.4.6, jest-matcher-utils@^27.5.0:
     jest-get-type "^27.5.0"
     pretty-format "^27.5.0"
 
-jest-message-util@^27.4.6:
-  version "27.4.6"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.4.6.tgz#9fdde41a33820ded3127465e1a5896061524da31"
-  integrity sha512-0p5szriFU0U74czRSFjH6RyS7UYIAkn/ntwMuOwTGWrQIOh5NzXXrq72LOqIkJKKvFbPq+byZKuBz78fjBERBA==
-  dependencies:
-    "@babel/code-frame" "^7.12.13"
-    "@jest/types" "^27.4.2"
-    "@types/stack-utils" "^2.0.0"
-    chalk "^4.0.0"
-    graceful-fs "^4.2.4"
-    micromatch "^4.0.4"
-    pretty-format "^27.4.6"
-    slash "^3.0.0"
-    stack-utils "^2.0.3"
-
-jest-message-util@^27.5.0:
+jest-message-util@^27.4.6, jest-message-util@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.5.0.tgz#654a781b38a305b1fd8120053c784c67bca00a52"
   integrity sha512-lfbWRhTtmZMEHPAtl0SrvNzK1F4UnVNMHOliRQT2BJ4sBFzIb0gBCHA4ebWD4o6l1fUyvDPxM01K9OIMQTAdQw==
