@@ -42,7 +42,7 @@
     "@jest/globals": "^27.2.5",
     "@types/aws-lambda": "^8.10.93",
     "@types/jest": "^27.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.15.0",
     "@typescript-eslint/typescript-estree": "^5.15.0",
     "cz-conventional-changelog": "^3.3.0",
