@@ -4065,9 +4065,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 headers-polyfill@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.0.4.tgz#cd70c815a441dd882372fcd6eda212ce997c9b18"
-  integrity sha512-I1DOM1EdWYntdrnCvqQtcKwSSuiTzoqOExy4v1mdcFixFZABlWP4IPHdmoLtPda0abMHqDOY4H9svhQ10DFR4w==
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.0.7.tgz#725c4f591e6748f46b036197eae102c92b959ff4"
+  integrity sha512-JoLCAdCEab58+2/yEmSnOlficyHFpIl0XJqwu3l+Unkm1gXpFUYsThz6Yha3D6tNhocWkCPfyW0YVIGWFqTi7w==
 
 homedir-polyfill@^1.0.1:
   version "1.0.3"
