@@ -7416,9 +7416,9 @@ statuses@^2.0.0:
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
 strict-event-emitter@^0.2.0:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/strict-event-emitter/-/strict-event-emitter-0.2.3.tgz#48fb55631e00819503a05525e4e3c22e670bea8e"
-  integrity sha512-4mGZVeGO7OtUBNQXTjokqYcFtH9ghKtYFhOPPGvnFDdDvndGDC1GtokCfb0dSrVFmR26l0YsLtbU/Xx88qeL1g==
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/strict-event-emitter/-/strict-event-emitter-0.2.4.tgz#365714f0c95f059db31064ca745d5b33e5b30f6e"
+  integrity sha512-xIqTLS5azUH1djSUsLH9DbP6UnM/nI18vu8d43JigCQEoVsnY+mrlE+qv6kYqs6/1OkMnMIiL6ffedQSZStuoQ==
   dependencies:
     events "^3.3.0"
 
