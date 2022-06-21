@@ -501,7 +501,7 @@
     "@types/node" "*"
     jest-mock "^27.5.1"
 
-"@jest/environment@^28.1.0", "@jest/environment@^28.1.1":
+"@jest/environment@^28.1.1":
   version "28.1.1"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-28.1.1.tgz#c4cbf85283278d768f816ebd1a258ea6f9e39d4f"
   integrity sha512-9auVQ2GzQ7nrU+lAr8KyY838YahElTX9HVjbQPPS2XjlxQ+na18G113OoBhyBGBtD6ZnO/SrUy5WR8EzOj1/Uw==
@@ -518,7 +518,7 @@
   dependencies:
     jest-get-type "^28.0.2"
 
-"@jest/expect@^28.1.0", "@jest/expect@^28.1.1":
+"@jest/expect@^28.1.1":
   version "28.1.1"
   resolved "https://registry.yarnpkg.com/@jest/expect/-/expect-28.1.1.tgz#ea4fcc8504b45835029221c0dc357c622a761326"
   integrity sha512-/+tQprrFoT6lfkMj4mW/mUIfAmmk/+iQPmg7mLDIFOf2lyf7EBHaS+x3RbeR0VZVMe55IvX7QRoT/2aK3AuUXg==
@@ -558,15 +558,6 @@
     "@jest/environment" "^27.5.1"
     "@jest/types" "^27.5.1"
     expect "^27.5.1"
-
-"@jest/globals@^28.1.0":
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/@jest/globals/-/globals-28.1.0.tgz#a4427d2eb11763002ff58e24de56b84ba79eb793"
-  integrity sha512-3m7sTg52OTQR6dPhsEQSxAvU+LOBbMivZBwOvKEZ+Rb+GyxVnXi9HKgOTYkx/S99T8yvh17U4tNNJPIEQmtwYw==
-  dependencies:
-    "@jest/environment" "^28.1.0"
-    "@jest/expect" "^28.1.0"
-    "@jest/types" "^28.1.0"
 
 "@jest/globals@^28.1.1":
   version "28.1.1"
@@ -726,7 +717,7 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@jest/types@^28.1.0", "@jest/types@^28.1.1":
+"@jest/types@^28.1.1":
   version "28.1.1"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.1.1.tgz#d059bbc80e6da6eda9f081f293299348bd78ee0b"
   integrity sha512-vRXVqSg1VhDnB8bWcmvLzmg0Bt9CRKVgHPXqYwvWMX3TvAjeO+nRuK6+VdTKCtWOvYlmkF/HqNAL/z+N3B53Kw==
