@@ -46,7 +46,7 @@
     "@typescript-eslint/parser": "^5.30.6",
     "@typescript-eslint/typescript-estree": "^5.27.1",
     "cz-conventional-changelog": "^3.3.0",
-    "del-cli": "^4.0.1",
+    "del-cli": "^5.0.0",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^3.3.0",
