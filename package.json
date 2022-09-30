@@ -58,7 +58,7 @@
     "husky": "^8.0.1",
     "jest": "^27.5.1",
     "jest-circus": "^29.0.3",
-    "jest-config": "^29.0.3",
+    "jest-config": "^29.1.2",
     "lerna": "^5.5.2",
     "lint-staged": "^13.0.3",
     "msw": "^0.47.3",
