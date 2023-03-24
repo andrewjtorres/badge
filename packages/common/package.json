@@ -22,7 +22,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc --project tsconfig.node.json",
-    "clean": "del dist \"*\\.log*\" \"tsconfig*\\.tsbuildinfo\"",
+    "clean": "npm-run-all --parallel \"clean:*\"",
+    "clean:caches": "del .turbo",
+    "clean:files": "del dist \"*\\.log*\" \"tsconfig*\\.tsbuildinfo\"",
     "lint": "npm-run-all --parallel \"lint:*\"",
     "lint:files": "prettylint \"**/*.{json,md}\"",
     "lint:scripts": "eslint \"**/*.ts\"",

@@ -1,3 +1,6 @@
+# Artifacts and Compiled Output
+.turbo
+
 # Dependencies
 .yarn/*
 !.yarn/patches

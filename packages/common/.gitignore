@@ -1,4 +1,5 @@
 # Artifacts and Compiled Output
+.turbo
 dist
 tsconfig*.tsbuildinfo
 

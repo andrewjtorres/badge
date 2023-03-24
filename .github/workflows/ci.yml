@@ -7,24 +7,12 @@ on:
     branches:
       - master
 jobs:
-  root_static_analysis:
-    name: Root Static Analysis
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3.4.0
-      - name: Setup Node
-        uses: actions/setup-node@v3.6.0
-        with:
-          node-version: 16.13
-          cache: yarn
-      - name: Install Node dependencies
-        run: yarn install --immutable
-      - name: Lint files
-        run: yarn lint:files
-  common_static_analysis:
-    name: Common Static Analysis
-    runs-on: ubuntu-20.04
+  lint_and_build:
+    name: Lint and Build
+    runs-on: ubuntu-22.04
+    env:
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3.4.0
@@ -36,5 +24,6 @@ jobs:
       - name: Install Node dependencies
         run: yarn install --immutable
       - name: Lint files, scripts, and types
-        run: yarn lint
-        working-directory: packages/common
+        run: yarn turbo lint
+      - name: Build packages
+        run: yarn turbo build

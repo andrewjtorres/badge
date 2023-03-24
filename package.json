@@ -20,19 +20,13 @@
   },
   "type": "module",
   "scripts": {
-    "build": "npm-run-all --parallel \"build:*\"",
-    "build:workspaces": "lerna run --stream build",
     "clean": "npm-run-all --parallel \"clean:*\"",
     "clean:files": "del \"*\\.log*\"",
-    "clean:workspaces": "lerna run --stream clean",
     "hook:pre-commit": "lint-staged",
     "lint": "npm-run-all --parallel \"lint:*\"",
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
     "lint:scripts": "eslint \"**/*.{cjs,js}\"",
-    "lint:workspaces": "lerna run --stream lint",
-    "prepare": "husky install",
-    "test": "npm-run-all --parallel \"test:*\"",
-    "test:workspaces": "lerna run --stream test"
+    "postinstall": "husky install"
   },
   "config": {
     "commitizen": {
@@ -61,13 +55,13 @@
     "jest": "^29.5.0",
     "jest-circus": "^29.5.0",
     "jest-config": "^29.5.0",
-    "lerna": "^6.6.0",
     "lint-staged": "^13.2.0",
     "msw": "^1.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.6",
     "prettylint": "^1.0.0",
     "ts-jest": "^29.0.5",
+    "turbo": "^1.8.5",
     "typescript": "^5.0.2",
     "typescript-eslint-language-service": "^5.0.0"
   },
