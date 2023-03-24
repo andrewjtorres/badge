@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true
+  },
+  "exclude": [".git", ".yarn", "node_modules", "packages"],
+  "include": [".**/**/.*", ".**/**/*", "**/.*", "**/*"]
+}

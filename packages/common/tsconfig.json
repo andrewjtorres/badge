@@ -1,17 +1,11 @@
 {
-  "extends": "../../tsconfig",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "composite": true,
-    "declaration": true,
-    "declarationMap": true,
-    "outDir": "build",
-    "paths": {
-      "*": ["src/*"]
+  "files": [],
+  "references": [
+    {
+      "path": "tsconfig.node.json"
     },
-    "rootDir": "src",
-    "types": []
-  },
-  "exclude": ["build", "node_modules"],
-  "include": ["src/**/*"]
+    {
+      "path": "tsconfig.eslint.json"
+    }
+  ]
 }

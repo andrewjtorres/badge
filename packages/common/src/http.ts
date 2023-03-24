@@ -1,4 +1,4 @@
-import got from 'got'
+import { got } from 'got'
 
 export interface BadgenResponse {
   color: string
@@ -7,9 +7,15 @@ export interface BadgenResponse {
 }
 
 export const fetch = got.extend({
-  headers: { 'user-agent': 'badge (https://github.com/ajtorres9/badge)' },
-  retry: 0,
-  timeout: 3200,
+  headers: {
+    'user-agent': 'badge (https://github.com/ajtorres9/badge)',
+  },
+  retry: {
+    limit: 0,
+  },
+  timeout: {
+    request: 3200,
+  },
 })
 
 export { CancelableRequest } from 'got'

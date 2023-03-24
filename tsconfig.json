@@ -1,26 +1,8 @@
 {
-  "compilerOptions": {
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "baseUrl": ".",
-    "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "newLine": "lf",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "plugins": [
-      {
-        "name": "typescript-eslint-language-service"
-      }
-    ],
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2020",
-    "useDefineForClassFields": true
-  }
+  "files": [],
+  "references": [
+    {
+      "path": "tsconfig.eslint.json"
+    }
+  ]
 }

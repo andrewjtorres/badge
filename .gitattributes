@@ -5,6 +5,7 @@
 # For the following file types, normalize line endings to LF on check-in and
 # prevent conversion to CRLF when they are checked out
 .*      text eol=lf
+*.cjs   text eol=lf
 *.js    text eol=lf
 *.json  text eol=lf
 *.lock  text eol=lf

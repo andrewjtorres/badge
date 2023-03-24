@@ -1,3 +1,9 @@
 # Artifacts and Compiled Output
-build
-tsconfig.tsbuildinfo
+dist
+tsconfig*.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Logs
+*.log*
